@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share a Skill | SkillSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topbar">
+    <div class="logo">SkillSphere</div>
+    <div class="nav-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Explore Skills</a></li>
+            <li><a href="share.html">Share Skill</a></li>
+            <li><a href="connect.html">Connect</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <button id="themeToggle" class="theme-button">Night Mode</button>
+</nav>
+
+<section class="page-hero">
+    <div class="hero-copy">
+        <span class="eyebrow">Share a Skill</span>
+        <h1>Publish your expertise.</h1>
+        <p>Tell the community what you can teach and help others grow their talents.</p>
+    </div>
+</section>
+
+<section class="share-form">
+    <div class="form-card">
+        <h2>Share your skill today</h2>
+        <form id="shareForm">
+            <label>
+                Name
+                <input type="text" id="nameInput" placeholder="Your name" required>
+            </label>
+            <label>
+                Skill
+                <input type="text" id="skillInput" placeholder="What skill do you want to share?" required>
+            </label>
+            <label>
+                Category
+                <select id="categoryInput" required>
+                    <option value="">Choose category</option>
+                    <option>Programming</option>
+                    <option>Design</option>
+                    <option>Photography</option>
+                    <option>Music</option>
+                    <option>Cooking</option>
+                    <option>Languages</option>
+                </select>
+            </label>
+            <label>
+                Experience Level
+                <select id="levelInput" required>
+                    <option value="">Choose level</option>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+            </label>
+            <button type="submit" class="primary-button">Publish Skill</button>
+        </form>
+    </div>
+</section>
+
+<footer id="footer">
+    <p>Ready to connect? Visit the <a href="connect.html">Connect</a> page.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
